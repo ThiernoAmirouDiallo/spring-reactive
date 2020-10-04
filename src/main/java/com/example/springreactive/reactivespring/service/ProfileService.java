@@ -1,5 +1,8 @@
-package com.example.springreactive.reactivespring;
+package com.example.springreactive.reactivespring.service;
 
+import com.example.springreactive.reactivespring.Profile;
+import com.example.springreactive.reactivespring.ProfileRepository;
+import com.example.springreactive.reactivespring.config.ProfileCreatedEvent;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;

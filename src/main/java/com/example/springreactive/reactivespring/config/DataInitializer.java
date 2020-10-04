@@ -1,5 +1,7 @@
-package com.example.springreactive.reactivespring;
+package com.example.springreactive.reactivespring.config;
 
+import com.example.springreactive.reactivespring.Profile;
+import com.example.springreactive.reactivespring.ProfileRepository;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;

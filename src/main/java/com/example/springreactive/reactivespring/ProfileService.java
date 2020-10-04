@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono;
 
 @Log4j2
 @Service
-class ProfileService {
+public class ProfileService {
 
     private final ApplicationEventPublisher publisher;
     private final ProfileRepository profileRepository;

@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "08332d51-e6d0-40a0-aa1c-f4c98c1ca3de",
+		"name": "reactive_spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all profiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profiles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get profile by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profiles/e1cf3f02-3401-43a4-883a-69a75b942980",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profiles",
+						"e1cf3f02-3401-43a4-883a-69a75b942980"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"amirou@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/profiles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete profile by id Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profiles/5f7a3316ba4d48006b59ca60",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profiles",
+						"5f7a3316ba4d48006b59ca60"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update profile by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"5f7a3316ba4d48006b59ca60\",\r\n    \"email\": \"thiernoamiroud@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/profiles/5f7a3316ba4d48006b59ca60",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profiles",
+						"5f7a3316ba4d48006b59ca60"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

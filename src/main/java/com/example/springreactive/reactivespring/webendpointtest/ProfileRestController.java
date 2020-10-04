@@ -1,4 +1,4 @@
-package com.example.springreactive.reactivespring.controller;
+package com.example.springreactive.reactivespring.webendpointtest;
 
 import com.example.springreactive.reactivespring.Profile;
 import com.example.springreactive.reactivespring.service.ProfileService;
